@@ -1,0 +1,48 @@
+|lab5_3
+ina[0] => comb.DATAIN
+ina[1] => comb.DATAIN
+ina[2] => comb.DATAIN
+ina[3] => comb.DATAIN
+inb[0] => comb.DATAIN
+inb[1] => comb.DATAIN
+inb[2] => comb.DATAIN
+inb[3] => comb.DATAIN
+pba => comb.DATAIN
+led[0] <= mux2_1:mux0.res
+led[1] <= mux2_1:mux1.res
+led[2] <= mux2_1:mux2.res
+led[3] <= mux2_1:mux3.res
+
+
+|lab5_3|mux2_1:mux0
+ina => r1.IN0
+inb => r2.IN0
+pba => r2.IN1
+pba => r1.IN1
+res <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5_3|mux2_1:mux1
+ina => r1.IN0
+inb => r2.IN0
+pba => r2.IN1
+pba => r1.IN1
+res <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5_3|mux2_1:mux2
+ina => r1.IN0
+inb => r2.IN0
+pba => r2.IN1
+pba => r1.IN1
+res <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5_3|mux2_1:mux3
+ina => r1.IN0
+inb => r2.IN0
+pba => r2.IN1
+pba => r1.IN1
+res <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+

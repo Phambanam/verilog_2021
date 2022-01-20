@@ -1,0 +1,31 @@
+module lab4_2(clk,key, sw70, led70);
+input clk,key;
+input [7..0] sw70;
+output reg [7..0] led70;
+
+reg [3:0] temp;
+reg ena;
+
+
+
+always @(posedge clk)
+	begin 
+		temp <= temp + 4'h1;
+		if (tem == 4'h3)
+			begin
+				temp <= 4'h0;
+				ena <= 1'b1;
+			end
+		else
+			ena <= 1'b0;
+	end
+always @(posedge clk)
+	begin
+		if(ena)
+		begin
+			if(!key) led70 <= sw70;
+			else led70 <= {led70[6:0], led70[7]};
+		end	
+	end
+
+endmodule

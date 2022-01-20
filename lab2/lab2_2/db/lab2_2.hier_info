@@ -1,0 +1,33 @@
+|lab2_2
+sw[0] => Add0.IN14
+sw[0] => Add1.IN10
+sw[0] => led.DATAA
+sw[0] => led.DATAB
+sw[1] => Add0.IN12
+sw[1] => Add0.IN13
+sw[1] => Add1.IN9
+sw[1] => led.DATAA
+sw[2] => Add0.IN11
+sw[2] => Add1.IN7
+sw[2] => Add1.IN8
+sw[3] => Add0.IN10
+sw[3] => Add1.IN5
+sw[3] => Add1.IN6
+sw7 => led.OUTPUTSELECT
+sw7 => led.OUTPUTSELECT
+sw7 => led.OUTPUTSELECT
+sw7 => led.OUTPUTSELECT
+sw7 => led.OUTPUTSELECT
+sw7 => led.OUTPUTSELECT
+sw7 => led.OUTPUTSELECT
+sw7 => led.OUTPUTSELECT
+led[0] << led.DB_MAX_OUTPUT_PORT_TYPE
+led[1] << led.DB_MAX_OUTPUT_PORT_TYPE
+led[2] << led.DB_MAX_OUTPUT_PORT_TYPE
+led[3] << led.DB_MAX_OUTPUT_PORT_TYPE
+led[4] << led.DB_MAX_OUTPUT_PORT_TYPE
+led[5] << led.DB_MAX_OUTPUT_PORT_TYPE
+led[6] << led.DB_MAX_OUTPUT_PORT_TYPE
+led[7] << led.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,43 @@
+|lab2_1
+sw74[0] => Mult0.IN3
+sw74[0] => Add0.IN8
+sw74[1] => Mult0.IN2
+sw74[1] => Add0.IN7
+sw74[2] => Mult0.IN1
+sw74[2] => Add0.IN6
+sw74[3] => Mult0.IN0
+sw74[3] => Add0.IN1
+sw74[3] => Add0.IN2
+sw74[3] => Add0.IN3
+sw74[3] => Add0.IN4
+sw74[3] => Add0.IN5
+sw30[0] => Mult0.IN7
+sw30[0] => Add0.IN16
+sw30[1] => Mult0.IN6
+sw30[1] => Add0.IN15
+sw30[2] => Mult0.IN5
+sw30[2] => Add0.IN14
+sw30[3] => Mult0.IN4
+sw30[3] => Add0.IN9
+sw30[3] => Add0.IN10
+sw30[3] => Add0.IN11
+sw30[3] => Add0.IN12
+sw30[3] => Add0.IN13
+key => led.OUTPUTSELECT
+key => led.OUTPUTSELECT
+key => led.OUTPUTSELECT
+key => led.OUTPUTSELECT
+key => led.OUTPUTSELECT
+key => led.OUTPUTSELECT
+key => led.OUTPUTSELECT
+key => led.OUTPUTSELECT
+led[0] <= led.DB_MAX_OUTPUT_PORT_TYPE
+led[1] <= led.DB_MAX_OUTPUT_PORT_TYPE
+led[2] <= led.DB_MAX_OUTPUT_PORT_TYPE
+led[3] <= led.DB_MAX_OUTPUT_PORT_TYPE
+led[4] <= led.DB_MAX_OUTPUT_PORT_TYPE
+led[5] <= led.DB_MAX_OUTPUT_PORT_TYPE
+led[6] <= led.DB_MAX_OUTPUT_PORT_TYPE
+led[7] <= led.DB_MAX_OUTPUT_PORT_TYPE
+
+

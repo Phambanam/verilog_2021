@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/verilogLAB/lab7/lab7_3/simulation/qsim
+vhard_block
+Z1 !s110 1637315271
+!i10b 1
+!s100 k;D`>agJnPUQKIY<0AZ712
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I@[UQ>Tl7DbbL?FDhIz=z=2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1637315269
+Z5 8lab7_3.vo
+Z6 Flab7_3.vo
+!i122 10
+L0 355 34
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1637315270.000000
+Z9 !s107 lab7_3.vo|
+Z10 !s90 -work|work|lab7_3.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vlab7_3
+R1
+!i10b 1
+!s100 JOX=2449fJ@_9hoz2>PjZ3
+R2
+Ij2`jOV6:N1_AYGHJZXi`j1
+R3
+R0
+R4
+R5
+R6
+!i122 10
+L0 32 322
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vlab7_3_vlg_vec_tst
+R1
+!i10b 1
+!s100 lWSdG3Ol=CEj[zL7cSP=K3
+R2
+I=l0HgY7;WSAnIChz83BOf0
+R3
+R0
+w1637315268
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 11
+L0 30 81
+R7
+r1
+!s85 0
+31
+!s108 1637315271.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R11
+R12

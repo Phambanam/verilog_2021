@@ -1,0 +1,41 @@
+|lab7_3
+clk => comb.DATAIN
+bc[0] => comb.DATAIN
+bc[1] => comb.DATAIN
+bc[2] => comb.DATAIN
+bc[3] => comb.DATAIN
+bc[4] => comb.DATAIN
+q[0] <= rom:mem.port2
+q[1] <= rom:mem.port2
+q[2] <= rom:mem.port2
+q[3] <= rom:mem.port2
+q[4] <= rom:mem.port2
+q[5] <= rom:mem.port2
+q[6] <= rom:mem.port2
+q[7] <= rom:mem.port2
+
+
+|lab7_3|rom:mem
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+clk => q[4]~reg0.CLK
+clk => q[5]~reg0.CLK
+clk => q[6]~reg0.CLK
+clk => q[7]~reg0.CLK
+rd_addr[0] => mem.RADDR
+rd_addr[1] => mem.RADDR1
+rd_addr[2] => mem.RADDR2
+rd_addr[3] => mem.RADDR3
+rd_addr[4] => mem.RADDR4
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

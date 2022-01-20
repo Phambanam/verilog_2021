@@ -1,0 +1,39 @@
+|lab4_3
+clk => led74[0]~reg0.CLK
+clk => led74[1]~reg0.CLK
+clk => led74[2]~reg0.CLK
+clk => led74[3]~reg0.CLK
+clk => cout.CLK
+clk => led30[0]~reg0.CLK
+clk => led30[1]~reg0.CLK
+clk => led30[2]~reg0.CLK
+clk => led30[3]~reg0.CLK
+clk => ena.CLK
+clk => tmp[0].CLK
+clk => tmp[1].CLK
+clk => tmp[2].CLK
+clk => tmp[3].CLK
+aclr => led30[0]~reg0.ACLR
+aclr => led30[1]~reg0.ACLR
+aclr => led30[2]~reg0.ACLR
+aclr => led30[3]~reg0.ACLR
+aclr => led74[0]~reg0.ACLR
+aclr => led74[1]~reg0.ACLR
+aclr => led74[2]~reg0.ACLR
+aclr => led74[3]~reg0.ACLR
+aclr => ena.ACLR
+aclr => tmp[0].ACLR
+aclr => tmp[1].ACLR
+aclr => tmp[2].ACLR
+aclr => tmp[3].ACLR
+aclr => cout.ENA
+led30[0] <= led30[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led30[1] <= led30[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led30[2] <= led30[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led30[3] <= led30[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led74[0] <= led74[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led74[1] <= led74[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led74[2] <= led74[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led74[3] <= led74[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

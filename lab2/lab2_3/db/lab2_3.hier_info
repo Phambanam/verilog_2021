@@ -1,0 +1,27 @@
+|lab2_3
+sw76[0] => LessThan0.IN2
+sw76[0] => a[0].DATAB
+sw76[1] => LessThan0.IN1
+sw76[1] => a[1].DATAB
+sw54[0] => LessThan0.IN4
+sw54[0] => a[0].DATAA
+sw54[1] => LessThan0.IN3
+sw54[1] => a[1].DATAA
+sw32[0] => LessThan1.IN2
+sw32[0] => b[0].DATAB
+sw32[1] => LessThan1.IN1
+sw32[1] => b[1].DATAB
+sw10[0] => LessThan1.IN4
+sw10[0] => b[0].DATAA
+sw10[1] => LessThan1.IN3
+sw10[1] => b[1].DATAA
+led76[0] << led76.DB_MAX_OUTPUT_PORT_TYPE
+led76[1] << led76.DB_MAX_OUTPUT_PORT_TYPE
+led[0] << <VCC>
+led[1] << <VCC>
+led[2] << <VCC>
+led[3] << <VCC>
+led[4] << <VCC>
+led[5] << <VCC>
+
+

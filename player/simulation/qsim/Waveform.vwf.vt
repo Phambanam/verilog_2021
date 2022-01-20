@@ -1,0 +1,407 @@
+// Copyright (C) 2020  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "10/22/2021 14:17:29"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          player
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module player_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg [63:0] datain;
+// wires                                               
+wire [63:0] dataout;
+
+// assign statements (if any)                          
+player i1 (
+// port map - connection between master ports and signals/registers   
+	.datain(datain),
+	.dataout(dataout)
+);
+initial 
+begin 
+#1000000 $stop;
+end 
+// datain[ 63 ]
+initial
+begin
+	datain[63] = 1'b0;
+end 
+// datain[ 62 ]
+initial
+begin
+	datain[62] = 1'b0;
+end 
+// datain[ 61 ]
+initial
+begin
+	datain[61] = 1'b0;
+end 
+// datain[ 60 ]
+initial
+begin
+	datain[60] = 1'b0;
+end 
+// datain[ 59 ]
+initial
+begin
+	datain[59] = 1'b0;
+end 
+// datain[ 58 ]
+initial
+begin
+	datain[58] = 1'b0;
+end 
+// datain[ 57 ]
+initial
+begin
+	datain[57] = 1'b0;
+end 
+// datain[ 56 ]
+initial
+begin
+	datain[56] = 1'b0;
+end 
+// datain[ 55 ]
+initial
+begin
+	datain[55] = 1'b0;
+end 
+// datain[ 54 ]
+initial
+begin
+	datain[54] = 1'b0;
+end 
+// datain[ 53 ]
+initial
+begin
+	datain[53] = 1'b0;
+end 
+// datain[ 52 ]
+initial
+begin
+	datain[52] = 1'b0;
+end 
+// datain[ 51 ]
+initial
+begin
+	datain[51] = 1'b0;
+end 
+// datain[ 50 ]
+initial
+begin
+	datain[50] = 1'b0;
+end 
+// datain[ 49 ]
+initial
+begin
+	datain[49] = 1'b0;
+end 
+// datain[ 48 ]
+initial
+begin
+	datain[48] = 1'b0;
+end 
+// datain[ 47 ]
+initial
+begin
+	datain[47] = 1'b0;
+end 
+// datain[ 46 ]
+initial
+begin
+	datain[46] = 1'b0;
+end 
+// datain[ 45 ]
+initial
+begin
+	datain[45] = 1'b0;
+end 
+// datain[ 44 ]
+initial
+begin
+	datain[44] = 1'b0;
+end 
+// datain[ 43 ]
+initial
+begin
+	datain[43] = 1'b0;
+end 
+// datain[ 42 ]
+initial
+begin
+	datain[42] = 1'b0;
+end 
+// datain[ 41 ]
+initial
+begin
+	datain[41] = 1'b0;
+end 
+// datain[ 40 ]
+initial
+begin
+	datain[40] = 1'b0;
+end 
+// datain[ 39 ]
+initial
+begin
+	datain[39] = 1'b0;
+end 
+// datain[ 38 ]
+initial
+begin
+	datain[38] = 1'b0;
+end 
+// datain[ 37 ]
+initial
+begin
+	datain[37] = 1'b0;
+end 
+// datain[ 36 ]
+initial
+begin
+	datain[36] = 1'b0;
+end 
+// datain[ 35 ]
+initial
+begin
+	datain[35] = 1'b0;
+end 
+// datain[ 34 ]
+initial
+begin
+	datain[34] = 1'b0;
+end 
+// datain[ 33 ]
+initial
+begin
+	datain[33] = 1'b0;
+end 
+// datain[ 32 ]
+initial
+begin
+	datain[32] = 1'b0;
+end 
+// datain[ 31 ]
+initial
+begin
+	datain[31] = 1'b0;
+end 
+// datain[ 30 ]
+initial
+begin
+	datain[30] = 1'b0;
+end 
+// datain[ 29 ]
+initial
+begin
+	datain[29] = 1'b0;
+end 
+// datain[ 28 ]
+initial
+begin
+	datain[28] = 1'b0;
+end 
+// datain[ 27 ]
+initial
+begin
+	datain[27] = 1'b0;
+end 
+// datain[ 26 ]
+initial
+begin
+	datain[26] = 1'b0;
+end 
+// datain[ 25 ]
+initial
+begin
+	datain[25] = 1'b0;
+end 
+// datain[ 24 ]
+initial
+begin
+	datain[24] = 1'b0;
+end 
+// datain[ 23 ]
+initial
+begin
+	datain[23] = 1'b0;
+end 
+// datain[ 22 ]
+initial
+begin
+	datain[22] = 1'b0;
+end 
+// datain[ 21 ]
+initial
+begin
+	datain[21] = 1'b0;
+end 
+// datain[ 20 ]
+initial
+begin
+	datain[20] = 1'b0;
+end 
+// datain[ 19 ]
+initial
+begin
+	datain[19] = 1'b0;
+end 
+// datain[ 18 ]
+initial
+begin
+	datain[18] = 1'b0;
+end 
+// datain[ 17 ]
+initial
+begin
+	datain[17] = 1'b0;
+end 
+// datain[ 16 ]
+initial
+begin
+	datain[16] = 1'b0;
+end 
+// datain[ 15 ]
+initial
+begin
+	datain[15] = 1'b0;
+end 
+// datain[ 14 ]
+initial
+begin
+	datain[14] = 1'b0;
+end 
+// datain[ 13 ]
+initial
+begin
+	datain[13] = 1'b0;
+end 
+// datain[ 12 ]
+initial
+begin
+	datain[12] = 1'b0;
+end 
+// datain[ 11 ]
+initial
+begin
+	datain[11] = 1'b0;
+end 
+// datain[ 10 ]
+initial
+begin
+	datain[10] = 1'b0;
+end 
+// datain[ 9 ]
+initial
+begin
+	datain[9] = 1'b0;
+end 
+// datain[ 8 ]
+initial
+begin
+	datain[8] = 1'b0;
+end 
+// datain[ 7 ]
+initial
+begin
+	datain[7] = 1'b0;
+end 
+// datain[ 6 ]
+initial
+begin
+	datain[6] = 1'b0;
+	datain[6] = #490000 1'b1;
+end 
+// datain[ 5 ]
+initial
+begin
+	datain[5] = 1'b0;
+	datain[5] = #170000 1'b1;
+	datain[5] = #320000 1'b0;
+	datain[5] = #320000 1'b1;
+end 
+// datain[ 4 ]
+initial
+begin
+	datain[4] = 1'b0;
+	# 10000;
+	repeat(3)
+	begin
+		datain[4] = 1'b1;
+		datain[4] = #160000 1'b0;
+		# 160000;
+	end
+	datain[4] = 1'b1;
+end 
+// datain[ 3 ]
+initial
+begin
+	datain[3] = 1'b1;
+	# 10000;
+	repeat(6)
+	begin
+		datain[3] = 1'b0;
+		datain[3] = #80000 1'b1;
+		# 80000;
+	end
+	datain[3] = 1'b0;
+end 
+// datain[ 2 ]
+initial
+begin
+	datain[2] = 1'b1;
+	# 10000;
+	repeat(12)
+	begin
+		datain[2] = 1'b0;
+		datain[2] = #40000 1'b1;
+		# 40000;
+	end
+	datain[2] = 1'b0;
+end 
+// datain[ 1 ]
+initial
+begin
+	datain[1] = 1'b1;
+	# 10000;
+	repeat(24)
+	begin
+		datain[1] = 1'b0;
+		datain[1] = #20000 1'b1;
+		# 20000;
+	end
+	datain[1] = 1'b0;
+	datain[1] = #20000 1'b1;
+end 
+// datain[ 0 ]
+always
+begin
+	datain[0] = 1'b1;
+	datain[0] = #10000 1'b0;
+	#10000;
+end 
+endmodule
+

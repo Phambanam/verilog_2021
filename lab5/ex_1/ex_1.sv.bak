@@ -1,0 +1,9 @@
+module ex_1
+(input clk,
+output reg[3:0] q);
+integer i;
+initial q = 4'd0;
+always @ (posedgeclk)
+for (i=1; i<=3; i=i+1)
+q <= q + i;
+endmodule 

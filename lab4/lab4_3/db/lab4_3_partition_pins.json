@@ -1,0 +1,49 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "led30[0]",
+					"strict" : false
+				},
+				{
+					"name" : "led30[1]",
+					"strict" : false
+				},
+				{
+					"name" : "led30[2]",
+					"strict" : false
+				},
+				{
+					"name" : "led30[3]",
+					"strict" : false
+				},
+				{
+					"name" : "led74[0]",
+					"strict" : false
+				},
+				{
+					"name" : "led74[1]",
+					"strict" : false
+				},
+				{
+					"name" : "led74[2]",
+					"strict" : false
+				},
+				{
+					"name" : "led74[3]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "aclr",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,14 @@
+module test;
+
+bit signed [15:0] a = -10;
+
+real b;
+
+initial
+begin
+b = 3 * a;
+$display(" value of a is ",a);
+$display(" value of b is %f ",b);
+end
+
+endmodule 

@@ -1,0 +1,25 @@
+Quartus II Archive log --	D:/verilogLAB/lab1/lab1_2/lab1_2.qarlog
+
+Archive:	D:/verilogLAB/lab1/lab1_2/lab1_2.qar
+Date:		Fri Sep 17 17:13:44 2021
+Quartus II 64-Bit		13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+	=========== Files Selected: ===========
+D:/verilogLAB/lab1/lab1_2/Waveform.vwf
+D:/verilogLAB/lab1/lab1_2/db/lab1_2.cmp.hdb
+D:/verilogLAB/lab1/lab1_2/db/lab1_2.db_info
+D:/verilogLAB/lab1/lab1_2/incremental_db/compiled_partitions/lab1_2.db_info
+D:/verilogLAB/lab1/lab1_2/lab1_2.qpf
+D:/verilogLAB/lab1/lab1_2/lab1_2.qsf
+D:/verilogLAB/lab1/lab1_2/lab1_2.sv
+c:/altera/13.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 8 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Mon Sep 20 09:26:00 2021
+Source archive file:	D:/verilogLAB/lab1/lab1_2/lab1_2.qar
+Archive was extracted into	D:/verilogLAB/lab1/lab1_2/lab1_2_restored/
+		 - successfully.

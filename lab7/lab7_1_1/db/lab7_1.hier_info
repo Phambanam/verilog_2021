@@ -1,0 +1,20 @@
+|lab7_1
+da[0] => da[0]~0.DATAIN
+da[1] => da[1]~1.DATAIN
+da[2] => da[2]~2.DATAIN
+da[3] => da[3]~3.DATAIN
+db[0] => db[0]~0.DATAIN
+db[1] => db[1]~1.DATAIN
+db[2] => db[2]~2.DATAIN
+db[3] => db[3]~3.DATAIN
+clk => clk~0.DATAIN
+q[0] << q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] << q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] << q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] << q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[4] << q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[5] << q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[6] << q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[7] << q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

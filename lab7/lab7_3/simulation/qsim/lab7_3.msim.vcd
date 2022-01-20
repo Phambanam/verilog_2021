@@ -1,0 +1,474 @@
+$comment
+	File created using the following command:
+		vcd file lab7_3.msim.vcd -direction
+$end
+$date
+	Fri Nov 19 12:47:52 2021
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module lab7_3_vlg_vec_tst $end
+$var reg 5 ! bc [4:0] $end
+$var reg 1 " clk $end
+$var wire 1 # q [7] $end
+$var wire 1 $ q [6] $end
+$var wire 1 % q [5] $end
+$var wire 1 & q [4] $end
+$var wire 1 ' q [3] $end
+$var wire 1 ( q [2] $end
+$var wire 1 ) q [1] $end
+$var wire 1 * q [0] $end
+
+$scope module i1 $end
+$var wire 1 + gnd $end
+$var wire 1 , vcc $end
+$var wire 1 - unknown $end
+$var tri1 1 . devclrn $end
+$var tri1 1 / devpor $end
+$var tri1 1 0 devoe $end
+$var wire 1 1 q[0]~output_o $end
+$var wire 1 2 q[1]~output_o $end
+$var wire 1 3 q[2]~output_o $end
+$var wire 1 4 q[3]~output_o $end
+$var wire 1 5 q[4]~output_o $end
+$var wire 1 6 q[5]~output_o $end
+$var wire 1 7 q[6]~output_o $end
+$var wire 1 8 q[7]~output_o $end
+$var wire 1 9 clk~input_o $end
+$var wire 1 : clk~inputclkctrl_outclk $end
+$var wire 1 ; bc[0]~input_o $end
+$var wire 1 < bc[1]~input_o $end
+$var wire 1 = bc[2]~input_o $end
+$var wire 1 > bc[3]~input_o $end
+$var wire 1 ? bc[4]~input_o $end
+$var wire 1 @ mem|mem_rtl_0|auto_generated|ram_block1a0~portadataout $end
+$var wire 1 A mem|mem_rtl_0|auto_generated|ram_block1a1 $end
+$var wire 1 B mem|mem_rtl_0|auto_generated|ram_block1a2 $end
+$var wire 1 C mem|mem_rtl_0|auto_generated|ram_block1a3 $end
+$var wire 1 D mem|mem_rtl_0|auto_generated|ram_block1a4 $end
+$var wire 1 E mem|mem_rtl_0|auto_generated|ram_block1a5 $end
+$var wire 1 F mem|mem_rtl_0|auto_generated|ram_block1a6 $end
+$var wire 1 G mem|mem_rtl_0|auto_generated|ram_block1a7 $end
+$var wire 1 H mem|mem_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [17] $end
+$var wire 1 I mem|mem_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [16] $end
+$var wire 1 J mem|mem_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [15] $end
+$var wire 1 K mem|mem_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [14] $end
+$var wire 1 L mem|mem_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [13] $end
+$var wire 1 M mem|mem_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [12] $end
+$var wire 1 N mem|mem_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [11] $end
+$var wire 1 O mem|mem_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [10] $end
+$var wire 1 P mem|mem_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [9] $end
+$var wire 1 Q mem|mem_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [8] $end
+$var wire 1 R mem|mem_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [7] $end
+$var wire 1 S mem|mem_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [6] $end
+$var wire 1 T mem|mem_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [5] $end
+$var wire 1 U mem|mem_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [4] $end
+$var wire 1 V mem|mem_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [3] $end
+$var wire 1 W mem|mem_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [2] $end
+$var wire 1 X mem|mem_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [1] $end
+$var wire 1 Y mem|mem_rtl_0|auto_generated|ram_block1a0_PORTADATAOUT_bus [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+0"
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+0+
+1,
+x-
+1.
+1/
+10
+01
+02
+03
+04
+05
+06
+07
+08
+09
+0:
+0;
+0<
+0=
+0>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0Y
+0X
+0W
+0V
+0U
+0T
+0S
+0R
+0Q
+0P
+0O
+0N
+0M
+0L
+0K
+0J
+0I
+0H
+$end
+#20000
+1"
+19
+1:
+#40000
+0"
+09
+0:
+#60000
+1"
+19
+1:
+#80000
+b1 !
+0"
+1;
+09
+0:
+#100000
+1"
+19
+1:
+#100001
+1Y
+1@
+11
+1*
+#120000
+0"
+09
+0:
+#140000
+1"
+19
+1:
+#160000
+b10001 !
+b11001 !
+b11101 !
+b11111 !
+b11110 !
+0"
+0;
+1<
+1=
+1>
+1?
+09
+0:
+#180000
+1"
+19
+1:
+#180001
+1U
+1D
+15
+1&
+#200000
+0"
+09
+0:
+#220000
+1"
+19
+1:
+#240000
+b1110 !
+b110 !
+b10 !
+b11 !
+0"
+1;
+0=
+0>
+0?
+09
+0:
+#260000
+1"
+19
+1:
+#260001
+0Y
+1X
+0U
+0@
+1A
+0D
+05
+12
+01
+0*
+1)
+0&
+#280000
+0"
+09
+0:
+#300000
+1"
+19
+1:
+#320000
+b1 !
+b101 !
+b100 !
+0"
+0;
+0<
+1=
+09
+0:
+#340000
+1"
+19
+1:
+#340001
+1W
+1B
+13
+1(
+#360000
+0"
+09
+0:
+#380000
+1"
+19
+1:
+#400000
+b101 !
+0"
+1;
+09
+0:
+#420000
+1"
+19
+1:
+#420001
+1Y
+1@
+11
+1*
+#440000
+0"
+09
+0:
+#460000
+1"
+19
+1:
+#480000
+b10101 !
+0"
+1?
+09
+0:
+#500000
+1"
+19
+1:
+#500001
+1V
+1U
+1C
+1D
+15
+14
+1'
+1&
+#520000
+0"
+09
+0:
+#540000
+1"
+19
+1:
+#560000
+b10111 !
+b111 !
+0"
+1<
+0?
+09
+0:
+#580000
+1"
+19
+1:
+#580001
+0Y
+0X
+0V
+0U
+0@
+0A
+0C
+0D
+05
+04
+02
+01
+0*
+0)
+0'
+0&
+#600000
+0"
+09
+0:
+#620000
+1"
+19
+1:
+#640000
+b1111 !
+b1011 !
+b1010 !
+b1000 !
+0"
+0;
+0<
+0=
+1>
+09
+0:
+#660000
+1"
+19
+1:
+#660001
+1V
+1C
+14
+1'
+#680000
+0"
+09
+0:
+#700000
+1"
+19
+1:
+#720000
+b1001 !
+0"
+1;
+09
+0:
+#740000
+1"
+19
+1:
+#740001
+1Y
+1@
+11
+1*
+#760000
+0"
+09
+0:
+#780000
+1"
+19
+1:
+#800000
+b1011 !
+b1010 !
+0"
+0;
+1<
+09
+0:
+#820000
+1"
+19
+1:
+#820001
+1X
+1A
+12
+1)
+#840000
+0"
+09
+0:
+#860000
+1"
+19
+1:
+#880000
+b1011 !
+0"
+1;
+09
+0:
+#900000
+1"
+19
+1:
+#900001
+0Y
+0@
+01
+0*
+#920000
+0"
+09
+0:
+#940000
+1"
+19
+1:
+#960000
+b1111 !
+b1101 !
+b1100 !
+0"
+0;
+0<
+1=
+09
+0:
+#980000
+1"
+19
+1:
+#980001
+0W
+0B
+03
+0(
+#1000000

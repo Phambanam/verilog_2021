@@ -1,0 +1,25 @@
+Quartus Prime Archive log --	/media/phamnam/DATA_WIN/verilogLAB/lab4/lab4_2/lab4_2.qarlog
+
+Archive:	/media/phamnam/DATA_WIN/verilogLAB/lab4/lab4_2/lab4_2.qar
+Date:		Thu Oct 14 17:55:49 2021
+Quartus Prime		20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+/media/phamnam/DATA_WIN/verilogLAB/lab4/lab4_2/Waveform.vwf
+/media/phamnam/DATA_WIN/verilogLAB/lab4/lab4_2/lab4_2.qpf
+/media/phamnam/DATA_WIN/verilogLAB/lab4/lab4_2/lab4_2.qsf
+/media/phamnam/DATA_WIN/verilogLAB/lab4/lab4_2/lab4_2.sv
+/media/phamnam/DATA_WIN/verilogLAB/lab4/lab4_2/lab4_2_assignment_defaults.qdf
+/media/phamnam/DATA_WIN/verilogLAB/lab4/lab4_2/simulation/qsim/lab4_2_20211014150854.sim.vwf
+/media/phamnam/DATA_WIN/verilogLAB/lab4/lab4_2/simulation/qsim/lab4_2_20211014154124.sim.vwf
+/media/phamnam/DATA_WIN/verilogLAB/lab4/lab4_2/simulation/qsim/lab4_2_20211014154347.sim.vwf
+/media/phamnam/DATA_WIN/verilogLAB/lab4/lab4_2/simulation/qsim/lab4_2_20211014155237.sim.vwf
+/media/phamnam/DATA_WIN/verilogLAB/lab4/lab4_2/simulation/qsim/lab4_2_20211014155336.sim.vwf
+/media/phamnam/DATA_WIN/verilogLAB/lab4/lab4_2/simulation/qsim/lab4_2_20211014161105.sim.vwf
+/media/phamnam/DATA_WIN/verilogLAB/lab4/lab4_2/simulation/qsim/lab4_2_20211014161422.sim.vwf
+/media/phamnam/DATA_WIN/verilogLAB/lab4/lab4_2/simulation/qsim/lab4_2_20211014161609.sim.vwf
+/media/phamnam/DATA_WIN/verilogLAB/lab4/lab4_2/simulation/qsim/lab4_2_20211014165754.sim.vwf
+	======= Total: 14 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

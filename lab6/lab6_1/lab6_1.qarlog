@@ -1,0 +1,16 @@
+Quartus Prime Archive log --	E:/verilogLAB/lab6/lab6_1/lab6_1.qarlog
+
+Archive:	E:/verilogLAB/lab6/lab6_1/lab6_1.qar
+Date:		Wed Nov 03 12:10:56 2021
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+E:/verilogLAB/lab6/lab6_1/Waveform.vwf
+E:/verilogLAB/lab6/lab6_1/lab6_1.qpf
+E:/verilogLAB/lab6/lab6_1/lab6_1.qsf
+E:/verilogLAB/lab6/lab6_1/lab6_1.sv
+c:/intelfpga_lite/20.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 5 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

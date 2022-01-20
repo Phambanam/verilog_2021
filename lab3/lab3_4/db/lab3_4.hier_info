@@ -1,0 +1,35 @@
+|lab3_4
+sw76[0] => LessThan0.IN2
+sw76[0] => led76.DATAA
+sw76[0] => led54.DATAB
+sw76[1] => LessThan0.IN1
+sw76[1] => led76.DATAA
+sw76[1] => led54.DATAB
+sw54[0] => LessThan0.IN4
+sw54[0] => led76.DATAB
+sw54[0] => led54.DATAA
+sw54[1] => LessThan0.IN3
+sw54[1] => led76.DATAB
+sw54[1] => led54.DATAA
+sw32[0] => LessThan1.IN4
+sw32[0] => led76.DATAB
+sw32[0] => led32.DATAA
+sw32[1] => LessThan1.IN3
+sw32[1] => led76.DATAB
+sw32[1] => led32.DATAA
+sw10[0] => LessThan2.IN4
+sw10[0] => led76.DATAB
+sw10[0] => led10.DATAA
+sw10[1] => LessThan2.IN3
+sw10[1] => led76.DATAB
+sw10[1] => led10.DATAA
+led76[0] <= led76.DB_MAX_OUTPUT_PORT_TYPE
+led76[1] <= led76.DB_MAX_OUTPUT_PORT_TYPE
+led54[0] <= led54.DB_MAX_OUTPUT_PORT_TYPE
+led54[1] <= led54.DB_MAX_OUTPUT_PORT_TYPE
+led32[0] <= led32.DB_MAX_OUTPUT_PORT_TYPE
+led32[1] <= led32.DB_MAX_OUTPUT_PORT_TYPE
+led10[0] <= led10.DB_MAX_OUTPUT_PORT_TYPE
+led10[1] <= led10.DB_MAX_OUTPUT_PORT_TYPE
+
+

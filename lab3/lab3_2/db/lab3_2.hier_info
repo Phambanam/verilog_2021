@@ -1,0 +1,20 @@
+|lab3_2
+sw30[0] => ss_arr.RADDR
+sw30[1] => ss_arr.RADDR1
+sw30[2] => ss_arr.RADDR2
+sw30[3] => ss_arr.RADDR3
+sw76[0] => Decoder0.IN1
+sw76[1] => Decoder0.IN0
+ss_out[0] <= ss_arr.DATAOUT
+ss_out[1] <= ss_arr.DATAOUT1
+ss_out[2] <= ss_arr.DATAOUT2
+ss_out[3] <= ss_arr.DATAOUT3
+ss_out[4] <= ss_arr.DATAOUT4
+ss_out[5] <= ss_arr.DATAOUT5
+ss_out[6] <= ss_arr.DATAOUT6
+led[0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+led[1] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+led[2] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+led[3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+
+

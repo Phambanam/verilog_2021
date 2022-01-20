@@ -1,0 +1,40 @@
+|lab4_2
+sw70[0] => led70.DATAB
+sw70[1] => led70.DATAB
+sw70[2] => led70.DATAB
+sw70[3] => led70.DATAB
+sw70[4] => led70.DATAB
+sw70[5] => led70.DATAB
+sw70[6] => led70.DATAB
+sw70[7] => led70.DATAB
+key => led70.OUTPUTSELECT
+key => led70.OUTPUTSELECT
+key => led70.OUTPUTSELECT
+key => led70.OUTPUTSELECT
+key => led70.OUTPUTSELECT
+key => led70.OUTPUTSELECT
+key => led70.OUTPUTSELECT
+key => led70.OUTPUTSELECT
+clk => led70[0]~reg0.CLK
+clk => led70[1]~reg0.CLK
+clk => led70[2]~reg0.CLK
+clk => led70[3]~reg0.CLK
+clk => led70[4]~reg0.CLK
+clk => led70[5]~reg0.CLK
+clk => led70[6]~reg0.CLK
+clk => led70[7]~reg0.CLK
+clk => ena.CLK
+clk => temp[0].CLK
+clk => temp[1].CLK
+clk => temp[2].CLK
+clk => temp[3].CLK
+led70[0] <= led70[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led70[1] <= led70[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led70[2] <= led70[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led70[3] <= led70[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led70[4] <= led70[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led70[5] <= led70[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led70[6] <= led70[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led70[7] <= led70[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

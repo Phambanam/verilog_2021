@@ -1,0 +1,37 @@
+module lab6_2(a, b, c, d, led);
+
+(*altera_attribute = "-name IO_STANDARD \"3.3-V LVCMOS\"", chip_pin = "25, 24"*)
+input [1:0] a;
+
+(*altera_attribute = "-name IO_STANDARD \"3.3-V LVCMOS\"", chip_pin = "49, 46"*)
+input [1:0] b;
+
+(*altera_attribute = "-name IO_STANDARD \"3.3-V LVCMOS\"", chip_pin = "90, 91"*)
+input [1:0] c;
+
+(*altera_attribute = "-name IO_STANDARD \"3.3-V LVCMOS\"", chip_pin = "88, 89"*)
+input [1:0] d;
+
+(*altera_attribute = "-name IO_STANDARD \"3.3-V LVCMOS\"", chip_pin = "65, 66, 67, 68, 69, 70, 71,72"*)
+output reg [7:0] led;
+
+reg [1:0] m1,m2,m3,m4,m5,m6;
+
+task sort;
+input [1:0] a1,a2;
+output [1:0] min, max;
+begin 
+	min <= (a1>a2)?a2:a1;
+	max <= (a1>a2)?a1:a2;
+end
+endtask
+
+always @* begin
+sort(a,b,m1,m2);
+sort(c,d,m3,m4);
+sort(m1,m3,led[1:0],m5);
+sort(m2,m4,m6,led[7:6]);
+sort(m5,m6,led[3:2],led[5:4]);
+end
+
+endmodule 

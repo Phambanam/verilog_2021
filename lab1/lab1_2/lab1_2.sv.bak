@@ -1,0 +1,10 @@
+module lab1_2
+
+(input [3:0] sw [1:0],
+ input sel,
+ output [3:0] qd)
+ 
+ assign qd = (sel) ? sw[1] : sw[0];
+ 
+ endmodule
+ 

@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\verilogLAB\lab2\lab2_1\simulation\qsim
+vlab2_1
+Z1 !s100 91ZiIKzPCh^leB4Lm6FAM1
+Z2 I]_:gaNaF6KST[FF4a0>Ob0
+Z3 VBBAN^`VzCRhz6jn8azj@o3
+Z4 dD:\verilogLAB\lab2\lab2_1\simulation\qsim
+Z5 w1632479219
+Z6 8lab2_1.vo
+Z7 Flab2_1.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|lab2_1.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1632479220.861000
+Z12 !s107 lab2_1.vo|
+!s101 -O0
+vlab2_1_vlg_check_tst
+!i10b 1
+Z13 !s100 SXWkg[CC36i_zA[j78TG00
+Z14 IbHi_i26@zVZCGlC]oCj>C1
+Z15 VQg^4EGmX:K6z[]aUX^N2`1
+R4
+Z16 w1632479218
+Z17 8Waveform.vwf.vt
+Z18 FWaveform.vwf.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z19 !s108 1632479221.137000
+Z20 !s107 Waveform.vwf.vt|
+Z21 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R10
+vlab2_1_vlg_sample_tst
+!i10b 1
+Z22 !s100 Pj_^X><@CS8zC0]UQiJX:0
+Z23 INJCaW@VPYDEKOE291>56d1
+Z24 V[ERC;bM[oD=:a[?>XBo<g1
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vlab2_1_vlg_vec_tst
+!i10b 1
+Z25 !s100 VoU1Ed?G<<gfOZS9eOR]`3
+Z26 I]D<]PDYV;icUXP4?de60D0
+Z27 VZiW8dLZOHM:]7VH1VoVRc3
+R4
+R16
+R17
+R18
+Z28 L0 281
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

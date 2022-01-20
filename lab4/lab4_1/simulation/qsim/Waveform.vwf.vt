@@ -1,0 +1,154 @@
+// Copyright (C) 2020  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "10/15/2021 11:21:47"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          lab4_1
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module lab4_1_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg asset;
+reg clk;
+reg [3:0] din;
+reg dir;
+reg ena;
+reg load;
+reg sclr;
+// wires                                               
+wire [3:0] q;
+
+// assign statements (if any)                          
+lab4_1 i1 (
+// port map - connection between master ports and signals/registers   
+	.asset(asset),
+	.clk(clk),
+	.din(din),
+	.dir(dir),
+	.ena(ena),
+	.load(load),
+	.q(q),
+	.sclr(sclr)
+);
+initial 
+begin 
+#10000000 $finish;
+end 
+
+// clk
+always
+begin
+	clk = 1'b0;
+	clk = #40000 1'b1;
+	#40000;
+end 
+
+// asset
+initial
+begin
+	asset = 1'b0;
+	asset = #240000 1'b1;
+end 
+
+// ena
+initial
+begin
+	ena = 1'b1;
+	ena = #2080000 1'b0;
+	ena = #480000 1'b1;
+end 
+
+// sclr
+initial
+begin
+	sclr = 1'b1;
+	sclr = #3520000 1'b0;
+	sclr = #800000 1'b1;
+end 
+
+// load
+initial
+begin
+	load = 1'b1;
+	load = #1600000 1'b0;
+	load = #320000 1'b1;
+end 
+
+// dir
+initial
+begin
+	dir = 1'b1;
+	dir = #1280000 1'b0;
+end 
+// din[ 3 ]
+initial
+begin
+	din[3] = 1'b1;
+	din[3] = #640000 1'b0;
+	din[3] = #800000 1'b1;
+	din[3] = #1120000 1'b0;
+	din[3] = #1600000 1'b1;
+	din[3] = #1120000 1'b0;
+	din[3] = #1600000 1'b1;
+	din[3] = #1440000 1'b0;
+end 
+// din[ 2 ]
+initial
+begin
+	din[2] = 1'b1;
+	din[2] = #640000 1'b0;
+	din[2] = #800000 1'b1;
+	din[2] = #1120000 1'b0;
+	din[2] = #1600000 1'b1;
+	din[2] = #1120000 1'b0;
+	din[2] = #1600000 1'b1;
+	din[2] = #1440000 1'b0;
+end 
+// din[ 1 ]
+initial
+begin
+	din[1] = 1'b1;
+	din[1] = #640000 1'b0;
+	din[1] = #800000 1'b1;
+	din[1] = #1120000 1'b0;
+	din[1] = #1600000 1'b1;
+	din[1] = #1120000 1'b0;
+	din[1] = #1600000 1'b1;
+	din[1] = #1440000 1'b0;
+end 
+// din[ 0 ]
+initial
+begin
+	din[0] = 1'b1;
+	din[0] = #640000 1'b0;
+	din[0] = #800000 1'b1;
+	din[0] = #1120000 1'b0;
+	din[0] = #1600000 1'b1;
+	din[0] = #1120000 1'b0;
+	din[0] = #1600000 1'b1;
+	din[0] = #1440000 1'b0;
+end 
+endmodule
+

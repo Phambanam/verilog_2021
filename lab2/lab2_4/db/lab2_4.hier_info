@@ -1,0 +1,29 @@
+|lab2_4
+sw75[0] => Mult0.IN4
+sw75[0] => Mult0.IN5
+sw75[0] => Mult1.IN3
+sw75[1] => Mult0.IN2
+sw75[1] => Mult0.IN3
+sw75[1] => Mult1.IN2
+sw75[2] => Mult0.IN0
+sw75[2] => Mult0.IN1
+sw75[2] => Mult1.IN1
+sw20[0] => Mult1.IN6
+sw20[0] => Mult2.IN4
+sw20[0] => Mult2.IN5
+sw20[1] => Mult1.IN5
+sw20[1] => Mult2.IN2
+sw20[1] => Mult2.IN3
+sw20[2] => Mult1.IN4
+sw20[2] => Mult2.IN0
+sw20[2] => Mult2.IN1
+led[0] << Add1.DB_MAX_OUTPUT_PORT_TYPE
+led[1] << Add1.DB_MAX_OUTPUT_PORT_TYPE
+led[2] << Add1.DB_MAX_OUTPUT_PORT_TYPE
+led[3] << Add1.DB_MAX_OUTPUT_PORT_TYPE
+led[4] << Add1.DB_MAX_OUTPUT_PORT_TYPE
+led[5] << Add1.DB_MAX_OUTPUT_PORT_TYPE
+led[6] << Add1.DB_MAX_OUTPUT_PORT_TYPE
+led[7] << Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+

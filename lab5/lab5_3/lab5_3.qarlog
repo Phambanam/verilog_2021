@@ -1,0 +1,17 @@
+Quartus Prime Archive log --	/media/phamnam/DATA_WIN/verilogLAB/lab5/lab5_3/lab5_3.qarlog
+
+Archive:	/media/phamnam/DATA_WIN/verilogLAB/lab5/lab5_3/lab5_3.qar
+Date:		Sun Oct 24 12:25:36 2021
+Quartus Prime		20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+/media/phamnam/DATA_WIN/verilogLAB/lab5/lab5_3/Waveform.vwf
+/media/phamnam/DATA_WIN/verilogLAB/lab5/lab5_3/lab5_3.qpf
+/media/phamnam/DATA_WIN/verilogLAB/lab5/lab5_3/lab5_3.qsf
+/media/phamnam/DATA_WIN/verilogLAB/lab5/lab5_3/lab5_3.sv
+/media/phamnam/DATA_WIN/verilogLAB/lab5/lab5_3/mux2_1.sv
+/media/phamnam/DATA_linux/quartus/20.1/quartus/linux64/assignment_defaults.qdf
+	======= Total: 6 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

@@ -1,0 +1,127 @@
+|lab7_2
+clk => comb.DATAIN
+ARSTn => comb.DATAIN
+WEn => comb.DATAIN
+q[0] << q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] << q.DB_MAX_OUTPUT_PORT_TYPE
+q[2] << q.DB_MAX_OUTPUT_PORT_TYPE
+q[3] << q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab7_2|div_counter:cnt_d
+clk => cnt[0].CLK
+clk => cnt[1].CLK
+clk => cnt[2].CLK
+clk => cnt[3].CLK
+clk => cnt[4].CLK
+clk => cnt[5].CLK
+clk => cnt[6].CLK
+clk => cnt[7].CLK
+clk => cnt[8].CLK
+clk => cnt[9].CLK
+clk => cnt[10].CLK
+clk => cnt[11].CLK
+clk => cnt[12].CLK
+clk => cnt[13].CLK
+clk => cnt[14].CLK
+clk => cnt[15].CLK
+clk => cnt[16].CLK
+clk => cnt[17].CLK
+clk => cnt[18].CLK
+clk => cnt[19].CLK
+clk => cnt[20].CLK
+clk => cnt[21].CLK
+clk => cnt[22].CLK
+clk => cnt[23].CLK
+clk => cnt[24].CLK
+clk => cnt[25].CLK
+clk => cnt[26].CLK
+clk => cnt[27].CLK
+clk => cnt[28].CLK
+clk => cnt[29].CLK
+clk => cnt[30].CLK
+clk => cnt[31].CLK
+c_out <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab7_2|counter:data
+clk => cnt[0]~reg0.CLK
+clk => cnt[1]~reg0.CLK
+clk => cnt[2]~reg0.CLK
+clk => cnt[3]~reg0.CLK
+rst => cnt[0]~reg0.ACLR
+rst => cnt[1]~reg0.ACLR
+rst => cnt[2]~reg0.ACLR
+rst => cnt[3]~reg0.ACLR
+ena => cnt[0]~reg0.ENA
+ena => cnt[3]~reg0.ENA
+ena => cnt[2]~reg0.ENA
+ena => cnt[1]~reg0.ENA
+cnt[0] <= cnt[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cnt[1] <= cnt[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cnt[2] <= cnt[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cnt[3] <= cnt[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab7_2|counter:adr
+clk => cnt[0]~reg0.CLK
+clk => cnt[1]~reg0.CLK
+clk => cnt[2]~reg0.CLK
+clk => cnt[3]~reg0.CLK
+rst => cnt[0]~reg0.ACLR
+rst => cnt[1]~reg0.ACLR
+rst => cnt[2]~reg0.ACLR
+rst => cnt[3]~reg0.ACLR
+ena => cnt[0]~reg0.ENA
+ena => cnt[3]~reg0.ENA
+ena => cnt[2]~reg0.ENA
+ena => cnt[1]~reg0.ENA
+cnt[0] <= cnt[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cnt[1] <= cnt[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cnt[2] <= cnt[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cnt[3] <= cnt[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab7_2|sp_ram_rdwo:RAM
+clk => mem.we_a.CLK
+clk => mem.waddr_a[3].CLK
+clk => mem.waddr_a[2].CLK
+clk => mem.waddr_a[1].CLK
+clk => mem.waddr_a[0].CLK
+clk => mem.data_a[3].CLK
+clk => mem.data_a[2].CLK
+clk => mem.data_a[1].CLK
+clk => mem.data_a[0].CLK
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+clk => mem.CLK0
+we => mem.we_a.DATAIN
+we => mem.WE
+d[0] => mem.data_a[0].DATAIN
+d[0] => mem.DATAIN
+d[1] => mem.data_a[1].DATAIN
+d[1] => mem.DATAIN1
+d[2] => mem.data_a[2].DATAIN
+d[2] => mem.DATAIN2
+d[3] => mem.data_a[3].DATAIN
+d[3] => mem.DATAIN3
+addr[0] => mem.waddr_a[0].DATAIN
+addr[0] => mem.WADDR
+addr[0] => mem.RADDR
+addr[1] => mem.waddr_a[1].DATAIN
+addr[1] => mem.WADDR1
+addr[1] => mem.RADDR1
+addr[2] => mem.waddr_a[2].DATAIN
+addr[2] => mem.WADDR2
+addr[2] => mem.RADDR2
+addr[3] => mem.waddr_a[3].DATAIN
+addr[3] => mem.WADDR3
+addr[3] => mem.RADDR3
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

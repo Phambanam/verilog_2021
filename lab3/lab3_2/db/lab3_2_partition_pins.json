@@ -1,0 +1,77 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ss_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ss_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ss_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ss_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ss_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ss_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ss_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "led[0]",
+					"strict" : false
+				},
+				{
+					"name" : "led[1]",
+					"strict" : false
+				},
+				{
+					"name" : "led[2]",
+					"strict" : false
+				},
+				{
+					"name" : "led[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sw30[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sw30[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sw30[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sw30[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sw76[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sw76[1]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

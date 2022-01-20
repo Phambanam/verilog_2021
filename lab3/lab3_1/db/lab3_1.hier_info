@@ -1,0 +1,27 @@
+|lab3_1
+sw74[0] => Div0.IN3
+sw74[0] => Div1.IN7
+sw74[1] => Div0.IN2
+sw74[1] => Div1.IN6
+sw74[2] => Div0.IN1
+sw74[2] => Div1.IN5
+sw74[3] => Div0.IN0
+sw74[3] => Div1.IN4
+sw30[0] => Div0.IN7
+sw30[0] => Div1.IN11
+sw30[1] => Div0.IN6
+sw30[1] => Div1.IN10
+sw30[2] => Div0.IN5
+sw30[2] => Div1.IN9
+sw30[3] => Div0.IN4
+sw30[3] => Div1.IN8
+led74[0] << Div0.DB_MAX_OUTPUT_PORT_TYPE
+led74[1] << Div0.DB_MAX_OUTPUT_PORT_TYPE
+led74[2] << Div0.DB_MAX_OUTPUT_PORT_TYPE
+led74[3] << Div0.DB_MAX_OUTPUT_PORT_TYPE
+led30[0] << Div1.DB_MAX_OUTPUT_PORT_TYPE
+led30[1] << Div1.DB_MAX_OUTPUT_PORT_TYPE
+led30[2] << Div1.DB_MAX_OUTPUT_PORT_TYPE
+led30[3] << Div1.DB_MAX_OUTPUT_PORT_TYPE
+
+
